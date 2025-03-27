@@ -3,6 +3,8 @@
 This is a starter project for learning how to convert HTML templates into a WordPress theme. It includes HTML files and Tailwind CSS styling.
 
 > **New!** Check out our [WordPress Theme Development Guide](WORDPRESS-GUIDE.md) for detailed explanations of WordPress template files, theme structure, and how to use Advanced Custom Fields for dynamic content!
+>
+> For a step-by-step guide specific to converting these HTML templates to a WordPress theme, see our [Conversion Guide](CONVERSION-GUIDE.md).
 
 ## Project Structure
 
@@ -16,7 +18,8 @@ wordpress-theme-starter/
 │   └── tailwind/          # Tailwind CSS configuration
 ├── package.json           # Project dependencies and scripts
 ├── README.md              # This file
-└── WORDPRESS-GUIDE.md     # Detailed WordPress theme development guide
+├── WORDPRESS-GUIDE.md     # Detailed WordPress theme development guide
+└── CONVERSION-GUIDE.md    # Step-by-step guide for converting these templates
 ```
 
 ## Getting Started
@@ -41,34 +44,7 @@ npm run watch
 
 ## WordPress Theme Conversion Process
 
-The conversion from HTML to PHP should be done manually as a learning exercise. Follow these steps:
-
-1. **Create a WordPress theme folder**:
-   - Create a folder in your WordPress installation: `wp-content/themes/your-theme-name/`
-   - Create a `style.css` file with WordPress theme metadata
-   - Create a basic `functions.php` file
-
-2. **Study the HTML structure**:
-   - Identify common parts (header, footer, etc.)
-   - Look at how the pages are structured
-   - Identify dynamic content areas that will need WordPress functions
-
-3. **Convert HTML files to PHP templates**:
-   - Start with `header.php` and `footer.php`
-   - Create `index.php` by combining your header, content from index.html, and footer
-   - Create other templates (page.php, single.php, etc.) as needed
-
-4. **Replace static content with WordPress functions**:
-   - Navigation menus → `wp_nav_menu()`
-   - Page content → `the_content()`
-   - Post loops → WordPress Loop
-   - Update asset paths → `<?php echo get_template_directory_uri(); ?>/assets/...`
-
-5. **Copy assets to theme folder**:
-   - Copy the contents of the `assets` folder to your theme's `assets` folder
-
-6. **Add dynamic content with Advanced Custom Fields**:
-   - See the [WordPress Guide](WORDPRESS-GUIDE.md) for details on using ACF
+The conversion from HTML to PHP should be done manually as a learning exercise. Follow our [Conversion Guide](CONVERSION-GUIDE.md) for detailed, step-by-step instructions specific to this project.
 
 ## Example WordPress Theme Structure
 
