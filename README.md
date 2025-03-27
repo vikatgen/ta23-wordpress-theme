@@ -2,6 +2,8 @@
 
 This is a starter project for learning how to convert HTML templates into a WordPress theme. It includes HTML files and Tailwind CSS styling.
 
+> **New!** Check out our [WordPress Theme Development Guide](WORDPRESS-GUIDE.md) for detailed explanations of WordPress template files, theme structure, and how to use Advanced Custom Fields for dynamic content!
+
 ## Project Structure
 
 ```
@@ -13,7 +15,8 @@ wordpress-theme-starter/
 │   ├── fauna-assets/      # Theme-specific assets
 │   └── tailwind/          # Tailwind CSS configuration
 ├── package.json           # Project dependencies and scripts
-└── README.md              # This file
+├── README.md              # This file
+└── WORDPRESS-GUIDE.md     # Detailed WordPress theme development guide
 ```
 
 ## Getting Started
@@ -64,6 +67,9 @@ The conversion from HTML to PHP should be done manually as a learning exercise. 
 5. **Copy assets to theme folder**:
    - Copy the contents of the `assets` folder to your theme's `assets` folder
 
+6. **Add dynamic content with Advanced Custom Fields**:
+   - See the [WordPress Guide](WORDPRESS-GUIDE.md) for details on using ACF
+
 ## Example WordPress Theme Structure
 
 ```
@@ -90,4 +96,5 @@ your-theme-name/
 - [WordPress Theme Development](https://developer.wordpress.org/themes/)
 - [WordPress Template Hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 - [WordPress Template Tags](https://developer.wordpress.org/themes/basics/template-tags/)
+- [Advanced Custom Fields](https://www.advancedcustomfields.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
