@@ -1,0 +1,15 @@
+{
+  "name": "wordpress-theme-starter",
+  "version": "1.0.0",
+  "description": "HTML starter files for WordPress theme development learning",
+  "scripts": {
+    "build": "mkdir -p assets/css && tailwindcss build -i assets/tailwind/tailwind.css -c assets/tailwind/tailwind.config.js -o assets/css/tailwind.min.css --minify",
+    "watch": "tailwindcss build -i assets/tailwind/tailwind.css -c assets/tailwind/tailwind.config.js -o assets/css/tailwind.min.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0"
+  }
+}
