@@ -1,4 +1,4 @@
-# WordPress Theme Starter
+# Wordpress Theme Starter
 
 This is a starter project for learning how to convert HTML templates into a WordPress theme. It includes HTML files and Tailwind CSS styling.
 
